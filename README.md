@@ -71,6 +71,8 @@ Dashboard screenshots are available in the [`Screenshots`](Screenshots/) folder.
 ```text
 QuickBite-Food-Delivery-Analytics/
 ├── README.md
+├── Data/
+│   └── QuickBite_Cleaned_Data/
 ├── Python/
 │   └── QuickBite_EDA.ipynb
 ├── PowerBI/
@@ -85,7 +87,9 @@ QuickBite-Food-Delivery-Analytics/
 
 ## 📂 Dataset
 
-The raw datasets are **not included in this repository**. The project was developed using the QuickBite case-study dataset.
+The original/raw datasets are **not included in this repository**. The project was developed using the QuickBite case-study dataset.
+
+A **cleaned and prepared version of the dataset is included** under the `Data/QuickBite_Cleaned_Data/` folder. This allows the data preparation and analysis workflow to be more reproducible while keeping the original/raw source data excluded from the repository.
 
 ## 🔗 Interactive Dashboard
 
