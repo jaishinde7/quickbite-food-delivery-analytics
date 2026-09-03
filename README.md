@@ -64,7 +64,7 @@ The analysis goes beyond reporting metrics by considering what the findings coul
 
 ## 📷 Dashboard Preview
 
-Dashboard screenshots are available in the [`Screenshots`](Screenshots/) folder.
+The repository includes screenshots of the dashboard's main analytical pages as well as supporting **Landing Page, Help, and Info** pages. All screenshots are available in the [`Screenshots`](Screenshots/) folder.
 
 ## 📁 Project Structure
 
@@ -75,14 +75,17 @@ QuickBite-Food-Delivery-Analytics/
 │   └── QuickBite_Cleaned_Data/
 ├── Python/
 │   └── QuickBite_EDA.ipynb
-├── PowerBI/
+├── Power BI/
 │   └── QuickBite_Recovery_Dashboard.pbix
 └── Screenshots/
-    ├── Overview.png
-    ├── Customer_Order_Analysis.png
-    ├── Delivery_Performance.png
-    ├── Ratings_Sentiment_Analysis.png
-    └── Restaurant_Menu_Analysis.png
+    ├── Executive.png
+    ├── Cust & Orders.png
+    ├── Delivery Performance.png
+    ├── Ratings & Sentiment.png
+    ├── Restaurant & Menu.png
+    ├── Landing Page.png
+    ├── Help.png
+    └── Info.png
 ```
 
 ## 📂 Dataset
