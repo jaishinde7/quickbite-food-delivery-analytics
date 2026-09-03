@@ -101,4 +101,4 @@ A big thank you to **Codebasics** for providing the QuickBite case study and the
 
 ---
 
-*Built as a data analytics portfolio project to practice data exploration, transformation, modelling, visualization, and business analysis.*
+*Built as a data analytics portfolio project to practice data exploration, transformation, modelling, visualization, and data analysis.*
