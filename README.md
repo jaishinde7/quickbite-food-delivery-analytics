@@ -6,7 +6,9 @@ Power BI food delivery analytics project analyzing QuickBite's business performa
 
 QuickBite is a food delivery business case study focused on understanding how a crisis period affected different areas of the business.
 
-The project combines Python-based data exploration and cleaning with an interactive Power BI dashboard to identify changes in customer activity, orders, delivery performance, ratings, sentiment, restaurants, and menu performance.
+The project combines Python-based data cleaning and exploration with an interactive Power BI dashboard. The cleaned datasets are hosted in **Google BigQuery** and connected to Power BI to support a cloud-based data source and scheduled dashboard refresh.
+
+The analysis covers customer activity, orders, delivery performance, ratings, sentiment, restaurants, and menu performance.
 
 ## 🎯 Business Objectives
 
@@ -20,12 +22,39 @@ The project combines Python-based data exploration and cleaning with an interact
 ## 🛠️ Tools & Skills
 
 - **Python** — Pandas, data cleaning and exploration
+- **Google BigQuery** — Cloud data warehouse and hosted cleaned datasets
 - **Power BI** — Dashboard development and data visualization
 - **Power Query** — Data transformation and preparation
 - **DAX** — Measures and business calculations
 - **Data Modelling** — Fact and dimension modelling, relationships, and Date table
 - **Data Visualization** — KPI cards, trends, comparisons, distributions, and analytical visuals
 - **Business Analysis** — Translating analytical findings into business opportunities
+
+## 🔄 Data & Dashboard Workflow
+
+The project follows this workflow:
+
+```text
+Original / Raw Data
+        ↓
+     Pandas
+(Data Cleaning & Preparation)
+        ↓
+ Cleaned Datasets
+        ↓
+   Google BigQuery
+ (Hosted Data Source)
+        ↓
+      Power BI
+(Data Model, DAX & Visuals)
+        ↓
+  Power BI Service
+(Daily Scheduled Refresh)
+```
+
+Data cleaning and preparation were performed using **Pandas**. The resulting cleaned datasets were loaded into **Google BigQuery**, and the Power BI dashboard was connected to the BigQuery dataset. Minor source-level transformations were also performed in Power Query where required.
+
+The published Power BI report is configured for a **daily scheduled refresh at 9:00 AM**.
 
 ## 📊 Dashboard Pages
 
@@ -92,7 +121,7 @@ QuickBite-Food-Delivery-Analytics/
 
 The original/raw datasets are **not included in this repository**. The project was developed using the QuickBite case-study dataset.
 
-A **cleaned and prepared version of the dataset is included** under the `Data/QuickBite_Cleaned_Data/` folder. This allows the data preparation and analysis workflow to be more reproducible while keeping the original/raw source data excluded from the repository.
+A **cleaned and prepared version of the dataset is included** under the `Data/QuickBite_Cleaned_Data/` folder. These cleaned datasets were also loaded into **Google BigQuery**, which serves as the hosted data source for the current Power BI report.
 
 ## 🔗 Interactive Dashboard
 
@@ -104,4 +133,4 @@ A big thank you to **Codebasics** for providing the QuickBite case study and the
 
 ---
 
-*Built as a data analytics portfolio project to practice data exploration, transformation, modelling, visualization, and data analysis.*
+*Built as a data analytics portfolio project to practice data cleaning, exploration, transformation, modelling, visualization, and business analysis.*
