@@ -105,7 +105,7 @@ QuickBite-Food-Delivery-Analytics/
 ├── Python/
 │   └── QuickBite_EDA.ipynb
 ├── Power BI/
-│   └── QuickBite_Recovery_Dashboard.pbix
+│   └── QuickBite Express BI Dashboard.pbix
 └── Screenshots/
     ├── Executive.png
     ├── Cust & Orders.png
