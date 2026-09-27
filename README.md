@@ -125,7 +125,7 @@ A **cleaned and prepared version of the dataset is included** under the `Data/Qu
 
 ## 🔗 Interactive Dashboard
 
-[View the Interactive Power BI Dashboard](https://tinyurl.com/quickbite-bi-dashboard)
+[View the Interactive Power BI Dashboard](https://tinyurl.com/quickbite-bi-analysis)
 
 ## 🙏 Acknowledgement
 
